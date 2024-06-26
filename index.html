@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>Unit Converter</title>
+<link href='https://fonts.googleapis.com/css?family=ADLaM Display' rel='stylesheet'>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="unit.css">
+<script>
+function cal1() 
+{
+            var n = document.getElementById("val").value;
+            var r = n * 1000;
+            document.getElementById("result").innerText = r;
+}
+function cal2() 
+{
+            var c = document.getElementById("val2").value;
+            var f = 9/5*c+32;
+            document.getElementById("result2").innerText = f;
+}
+function cal3() 
+{
+            var n = document.getElementById("val3").value;
+            var r = n * 1000;
+            document.getElementById("result3").innerText = r;
+}
+function cal4() 
+{
+            var n = document.getElementById("val4").value;
+            var r = n * 1000;
+            document.getElementById("result4").innerText = r;
+}
+function cal5() 
+{
+            var n = document.getElementById("val5").value;
+            var r = n * 3600;
+            document.getElementById("result5").innerText = r;
+}
+</script>
+</head>
+<body style="background:#6944FF">
+	<div class="container w-3" style="padding:200px 200px 200px 200px">
+	<div class="w3-container new1">
+		<p>Kilometer to Meter</p>
+		<div class="container" id="f1">
+			<input type="text" class="form-control" id="val" style="width:100px;color:white;font-size:50px;text-align:center;height:80px;border:none;background:#6944FF;border:1px solid #EADEDB;margin-left:400px;margin-top:20px;"><br>
+
+			<input type="button" class="btn btn-dark cal" value="Convert" onclick="cal1()"><br>
+			<p style="color:black;font-size:30px;text-align:center;" id="result"></p>
+
+		</div>
+	</div> 
+	<div class="w3-container new2">
+		<p>Celsius to Fahrenheit</p>
+		<div class="container" id="f1">
+			<input type="text" class="form-control" id="val2" style="width:100px;color:white;font-size:50px;text-align:center;height:80px;border:none;background:#6944FF;border:1px solid #EADEDB;margin-left:400px;margin-top:20px;"><br>
+
+			<input type="button" class="btn btn-dark cal" value="Convert" onclick="cal2()"><br>
+			<p style="color:black;font-size:30px;text-align:center;" id="result2"></p>
+
+		</div>
+	</div> 
+	<div class="w3-container new3">
+		<p>Liter to Milliliter</p>
+		<div class="container" id="f1">
+			<input type="text" class="form-control" id="val3" style="width:100px;color:white;font-size:50px;text-align:center;height:80px;border:none;background:#6944FF;border:1px solid #EADEDB;margin-left:400px;margin-top:20px;"><br>
+
+			<input type="button" class="btn btn-dark cal" value="Convert" onclick="cal3()"><br>
+			<p style="color:black;font-size:30px;text-align:center;" id="result3"></p>
+
+		</div>
+	</div> 
+	<div class="w3-container new4">
+		<p>Megahertz to Kilohertz</p>
+		<div class="container" id="f1">
+			<input type="text" class="form-control" id="val4" style="width:100px;color:white;font-size:50px;text-align:center;height:80px;border:none;background:#6944FF;border:1px solid #EADEDB;margin-left:400px;margin-top:20px;"><br>
+
+			<input type="button" class="btn btn-dark cal" value="Convert" onclick="cal4()"><br>
+			<p style="color:black;font-size:30px;text-align:center;" id="result4"></p>
+
+		</div>
+	</div> 
+	<div class="w3-container new5">
+		<p>Hour to Second</p>
+		<div class="container" id="f1">
+			<input type="text" class="form-control" id="val5" style="width:100px;color:white;font-size:50px;text-align:center;height:80px;border:none;background:#6944FF;border:1px solid #EADEDB;margin-left:400px;margin-top:20px;"><br>
+
+			<input type="button" class="btn btn-dark cal" value="Convert" onclick="cal5()"><br>
+			<p style="color:black;font-size:30px;text-align:center;" id="result5"></p>
+
+		</div>
+	</div> 
+	</div>
+	
+</body>
+</html>

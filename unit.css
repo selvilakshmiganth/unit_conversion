@@ -1,0 +1,42 @@
+.new1,.new2,.new3,.new4,.new5
+{
+	height:60px;
+	text-align:center;
+	border:1px solid white;
+	border-radius:20px;
+	font-size:30px;
+    font-family:ADLaM Display;
+	background-color:#6944FF;
+	color:white;
+}
+.cal
+{
+	background:#6944FF;
+	border:none;
+	width:100px;
+	margin-left:20px;
+	margin-bottom:50px;
+}
+#f1
+{
+ display: none;
+  position: absolute;
+  
+  background-color: #f1f1f1;
+  width: 900px;
+  z-index:1;
+  border-radius:10px;
+  
+}
+
+.new1:hover,.new2:hover,.new3:hover,.new4:hover,.new5:hover
+{
+	cursor:pointer;
+	background:white;
+	color:black;
+}
+.new1:hover #f1,.new2:hover #f1,.new3:hover #f1,.new4:hover #f1,.new5:hover #f1{
+	display:block;
+	
+
+}
